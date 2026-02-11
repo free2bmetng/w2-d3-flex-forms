@@ -1,4 +1,40 @@
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinks{
+display: flex;;
+}
+
+.navlinks li{
+    list-style: none;
+    margin-right: 1rem;
+}
+span {
+  font-weight: bolder;
+  font-size: 22px;
+
+}
+
+.sighthingrow {
+  display: flex;
+  justify-content: center;
+}
+.sighthingform {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+input {
+  width: 350px;
+}

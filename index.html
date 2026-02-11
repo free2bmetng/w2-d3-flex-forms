@@ -10,7 +10,7 @@
     <header>
       <nav>
         <p>LOGO</p>
-        <ul>
+        <ul class="navlinks">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact">Contact</a></li>
@@ -108,18 +108,18 @@
         </p>
         <ul>
           <li>
-            The Dread-Horn (Abyssal Unicorn): Found in the wastes of the
+            <span>The Dread-Horn (Abyssal Unicorn):</span> Found in the wastes of the
             Underdark. Their horns are jagged obsidian, and they do not heal;
             they "wither." Their touch causes Necrotic Decay, and they are often
             used as mounts by Black Guard captains.
           </li>
           <li>
-            The Kirin (The Eastern Sage): Wreathed in holy fire and covered in
+            <span>The Kirin (The Eastern Sage): </span> Wreathed in holy fire and covered in
             gold scales. They do not walk on the earth because their sanctity is
             too great for the soil; they gallop on the air itself.
           </li>
           <li>
-            The Sea-Stallion (Naricorn): Not to be confused with the narwhal,
+            <span>The Sea-Stallion (Naricorn):</span> Not to be confused with the narwhal,
             these are aquatic unicorns that guard the coral palaces. Their horns
             are made of enchanted pearl and can control the tides.
           </li>
@@ -131,11 +131,9 @@
           a hidden valley or fought one in a tragic misunderstanding, your data
           helps other travelers survive.
         </p>
-        <form class="sighthingform">
-          <label for="location"
-            >Name of Location
-            <input type="text" name="location" id="location" />
-          </label>
+        <!-- <form class="sighthingform">
+          <label for="location">Name of Location </label>
+          <input type="text" name="location" id="location" />
           <label for="time"
             >Time od Day <input type="text" name="time" id="time" />
           </label>
@@ -151,6 +149,23 @@
             >Party Reaction
             <input type="text" name="reaction" id="reaction" />
           </label>
+        </form> -->
+        <hr />
+        <form class="sighthingrow">
+          <div class="sighthingform">
+            <label for="location">Name of Location</label>
+            <label for="time">Time of Day</label>
+            <label for="horn">Horn Color & Texture</label>
+            <label for="ability">Primary Ability Witnessed</label>
+            <label for="reaction">Party Reaction</label>
+          </div>
+          <div class="sighthingform">
+            <input type="text" name="location" id="location" />
+            <input type="text" name="time" id="time" />
+            <input type="text" name="horn" id="horn" />
+            <input type="text" name="ability" id="ability" />
+            <input type="text" name="reaction" id="reaction" />
+          </div>
         </form>
       </section>
 
