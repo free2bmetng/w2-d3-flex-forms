@@ -3,18 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Unicorn</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
         <p>LOGO</p>
+        <div></div>
         <ul class="navlinks">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact">Contact</a></li>
         </ul>
+        <div>
+          <form class="navform" action="">
+            <label for="username"
+              >Username
+              <input type="text" name="username id=" username />
+            </label>
+            <label for="password"
+              >Password
+              <input type="text" name="password" id="password" />
+            </label>
+          </form>
+        </div>
       </nav>
     </header>
     <main>
@@ -93,10 +106,6 @@
           innocent child. They seek clarity of spirit, not lack of experience.
         </p>
         <hr />
-        <p>
-          Love this and want more content like this and updates on events and
-          giveaways. Subscribe below. Enter your name and email.
-        </p>
       </section>
 
       <section>
@@ -108,20 +117,22 @@
         </p>
         <ul>
           <li>
-            <span>The Dread-Horn (Abyssal Unicorn):</span> Found in the wastes of the
-            Underdark. Their horns are jagged obsidian, and they do not heal;
-            they "wither." Their touch causes Necrotic Decay, and they are often
-            used as mounts by Black Guard captains.
+            <span>The Dread-Horn (Abyssal Unicorn):</span> Found in the wastes
+            of the Underdark. Their horns are jagged obsidian, and they do not
+            heal; they "wither." Their touch causes Necrotic Decay, and they are
+            often used as mounts by Black Guard captains.
           </li>
           <li>
-            <span>The Kirin (The Eastern Sage): </span> Wreathed in holy fire and covered in
-            gold scales. They do not walk on the earth because their sanctity is
-            too great for the soil; they gallop on the air itself.
+            <span>The Kirin (The Eastern Sage): </span> Wreathed in holy fire
+            and covered in gold scales. They do not walk on the earth because
+            their sanctity is too great for the soil; they gallop on the air
+            itself.
           </li>
           <li>
-            <span>The Sea-Stallion (Naricorn):</span> Not to be confused with the narwhal,
-            these are aquatic unicorns that guard the coral palaces. Their horns
-            are made of enchanted pearl and can control the tides.
+            <span>The Sea-Stallion (Naricorn):</span> Not to be confused with
+            the narwhal, these are aquatic unicorns that guard the coral
+            palaces. Their horns are made of enchanted pearl and can control the
+            tides.
           </li>
         </ul>
         <hr />
@@ -150,7 +161,7 @@
             <input type="text" name="reaction" id="reaction" />
           </label>
         </form> -->
-        <hr />
+        <!-- <hr /> -->
         <form class="sighthingrow">
           <div class="sighthingform">
             <label for="location">Name of Location</label>
@@ -165,15 +176,29 @@
             <input type="text" name="horn" id="horn" />
             <input type="text" name="ability" id="ability" />
             <input type="text" name="reaction" id="reaction" />
+            <button>Click Here to Share</button>
           </div>
         </form>
       </section>
-
-      <form action="">
-        <label for="">Email</label>
-        <input type="email" name="email" id="email" />
-        <button>Subscribe Now</button>
-      </form>
+      <section >
+        <p>
+          Love this and want more content like this and updates on events and
+          giveaways. Subscribe below. Enter your name and email.
+        </p>
+        <form class="signonform" action="">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">  
+          <label for="email">Email</label>
+          <input
+            required
+            aria-required="true"
+            type="email"
+            name="email"
+            id="email"
+          />
+          <button>Subscribe Now</button>
+        </form>
+      </section>
     </main>
     <footer>Copyright T.Grant &copy;2026</footer>
   </body>
